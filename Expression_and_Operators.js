@@ -126,23 +126,38 @@
 // logical oprators are typically used with Boolean (logical) values,
 // when they are, they returns a Boolean value.
 
-var a = 30;
-var b = -20;
+// var a = 30;
+// var b = -20;
 
 // logical AND (&&)
 // The logical AND (&&) operator (logical conjuction) for a set of
 // opersnds is true if and only if all of its operands are true.
 
-console.log( a>b && b>0);       // false 
+//console.log( a>b && b>0);       // false 
 
 
 // Logical OR(||)
 // The logical OR (||) operator (logical disjunction) for a set of
 // operands is true if and only if one or more of its operands is true.
 
-console.log( a>b || b>0);       //true
+//console.log( a>b || b>0);       //true
 
 
 // Logical NOT(!)
 // The logical NOT (!) operator (logical complement, negation)
 //takes truth to falsity and vice verse.
+// console.log(!(a > 0) || (b < 0));           //true
+// console.log(!((a > 0) || (b < 0)))          //false
+// console.log(!false)                         //true
+
+
+
+//-------------------(String COncatenation (operators))--------------------------
+// The concatenation operator (+) concatenates two strings values together,
+// returning another string that is the union of the two operand  strings.
+
+//console.log("Hello World");       // Hello World
+//console.log("Hello " + "World");  //Hello World
+
+//var myName = "vinod";
+//console.log(myName + " Thapa");        // vinod Thapa

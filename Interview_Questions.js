@@ -23,17 +23,21 @@
 //console.log("vinod" - "thapa")      //NaN is o/p Q k hum do string ko substract kar rahe hai
 
 
-var myPhoneNumber = 9876543210;
-var myName = "thapa Technical";
+// var myPhoneNumber = 9876543210;
+// var myName = "thapa Technical";
 
-console.log(myPhoneNumber)      //9876543210 is o/p
-console.log(myName)             //thapa Technical is o/p
+// console.log(myPhoneNumber)      //9876543210 is o/p
+// console.log(myName)             //thapa Technical is o/p
 
-console.log(isNaN(myPhoneNumber))       // false is o/p Q k myPhoneNumber tu ek number hai aur hum usko Not-a-Number hai kya dekh rahe hai
-console.log(isNaN(myName))                 //true is o/p Q k myName ko Not-a-Number hai kya check karre par ye tu ek string hai
+// console.log(isNaN(myPhoneNumber))       // false is o/p Q k myPhoneNumber tu ek number hai aur hum usko Not-a-Number hai kya dekh rahe hai
+// console.log(isNaN(myName))                 //true is o/p Q k myName ko Not-a-Number hai kya check karre par ye tu ek string hai
 
-if(isNaN(myName)){                      //isNaN nam k function ko istemal kar k dekh sakhte hai k ye number hai ya nai...isko zada tar form me correct phone numbers ko check karne k liye use karte hai
-    console.log("plz enter valid phone no") 
-}
+// if(isNaN(myName)){                      //isNaN nam k function ko istemal kar k dekh sakhte hai k ye number hai ya nai...isko zada tar form me correct phone numbers ko check karne k liye use karte hai
+//     console.log("plz enter valid phone no") 
+// }
+
+//-----------------------------------------------------------------------------------
 
 
+
+// Q3: Difference between == vs === ?
