@@ -41,3 +41,14 @@
 
 
 // Q3: Difference between == vs === ?
+
+
+// var num1 = 5;
+// var num2 = '5';
+
+// console.log(num1 == num2);      // true  // == equals check only value
+// console.log(typeof num1);       //number
+// console.log(typeof num2);       //string
+// console.log(num1 === num2);     //false     // === equals check value as well as data type of that value also
+
+
